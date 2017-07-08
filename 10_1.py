@@ -1,38 +1,23 @@
-# Ex 10.1: Read file for emails. Count messages from each. 
+# Ex 10.1 Parse "From" lines & pull address.  Count # messages
+# Print person with most commits.
 
-# Open File
-inp = input('Enter a file name: ') #Use mbox-short.txt or mbox.txt
+# open file
+inp = input('Type a files name: ')
 try: fhand = open(inp)
 except:
     print("Can't find file ",inp)
     quit()
-    
-# read and count emails
-d = dict()
+
+# extract emails    
+emails = dict()
 for line in fhand:
-    if not line.startswith('From '): continue
+    if not line.startswith(From ): continue
+    line = lie.lower()
     words = line.split()
     email = words[1]
-    if email not in d:
-        d[email] = 1
+    if email not in emails:
+        emails(email, 1)
     else:
-        d[email] += 1
-
-# sort emails 
-lst = list()
-for mail,count in d.items():
-    lst.append ((count,mail))
-lst.sort(reverse=True)
-tcount, temail = lst[0]
-print('Top email is',temail,'with a total of ', tcount,'emails.')
-
-#save to file
-fout = open('emails.txt','w')
-for count,mail in lst:
-#    line = str()
-#    line = mail + '\t' + str(count) + '\n'
-#    fout.write(line)
-    fout.write((mail + '\t' + str(count) + '\n')) #shorter version of 3 lines above
-fout.close()
-
-  
+        count = 
+        emails(
+    
