@@ -1,0 +1,1 @@
+# Ex 8.1: write function to modify list & remove first & last element
