@@ -1,4 +1,22 @@
 # PythonForEverybody
+
+Chapt 1: Why should you learn to write programs?
+Chapt 2: Variables, expressions and statements
+Chapt 3: Conditional Execution
+Chapt 4: Functions 
+Chapt 5: Iterations
+Chapt 6: Strings
+Chapt 7: Files
+Chapt 8: Lists
+Chapt 9: Dictionaries
+Chapt 10: Tuples 
+Chapt 11: Regular Expressions
+Chapt 12: Networked Programs
+Chapt 13: Using Web Seevices
+Chapt 14: Object-Oriented Programming
+Chapt 15: Using databases and SQL
+Chapt 16: Visualizing data
+
 Exercise Answers from "Python for Everybody: Exploring Data Using Python 3" by Charles Severance
 
 9.2: Write a program that categorizes each mail message by which day of
