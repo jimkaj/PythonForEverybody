@@ -1,7 +1,7 @@
 #experiment with files
 fhand = open('mbox.txt')
 print(fhand)
-mout = open('email.txt','w')
+mout = open('email.txt','w') #w means you can write to this file 
 
 # Finds e-mails and writes to file
 for line in fhand:
